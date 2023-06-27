@@ -77,3 +77,26 @@ li {
 .ul-pages__item__link:hover {
     color: #16a05b;
 }
+
+@media (max-width: 1000px) { 
+    .amounts {
+        flex-direction: column;
+    }
+    .amounts-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .ul-pages {
+        flex-direction: column;
+    }
+    .col-1 {
+        width: 50%;
+    }
+    .transactionForm__inputs {
+        flex-direction: column;
+    }
+    .col-2 {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
