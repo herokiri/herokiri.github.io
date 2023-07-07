@@ -56,9 +56,11 @@
     .faq-list__item__title {
         font-size: 0.875rem;
     }
+
     span svg{
-        max-width: 1.85rem;
+        max-width: 1.84rem;
         max-height: 1.85rem;
     }
+    
 
 }
