@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+
+    .how-content__rigth__img {
+        grid-area: s;
+    }
+    .how-content__left {
+        grid-area: e;
+    }
+
+    .how-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(17.75rem, auto);
+        gap: 2.38rem;
+        grid-template-areas:
+          "s"
+          "e"
+    }
+    .hero-content__title {
+        
+        font-size: 3.125rem;
+    }
+    .hero-content__description {
+        font-size: 1.125rem;
+    }
+    .hero-content__btn {
+        font-size: 1.4375rem;
+    }
+    .hero-content {
+        padding: 6.25rem 5rem 6.25rem 5rem;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
