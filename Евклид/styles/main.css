@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Montserrat";
   font-weight: 400;
-  src: local("Montserrat"), url("/fonts/Montserrat-Regular.woff");
+  src: local("Montserrat"), url("Евклид/fonts/Montserrat-Regular.woff");
 }
 @font-face {
   font-family: "Montserrat";
   font-weight: 500;
-  src: local("Montserrat"), url("/fonts/Montserrat-Medium.woff");
+  src: local("Montserrat"), url("Евклид/fonts/Montserrat-Medium.woff");
 }
 @font-face {
   font-family: "Montserrat";
   font-weight: 600;
-  src: local("Montserrat"), url("/fonts/Montserrat-SemiBold.woff");
+  src: local("Montserrat"), url("Евклид/fonts/Montserrat-SemiBold.woff");
 }
 * {
   margin: 0;
@@ -74,7 +74,7 @@ ul {
 }
 .hero-container {
   border-radius: 2rem;
-  background: url(/img/hero-img1.jpg);
+  background: url(Евклид/img/hero-img1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ ul {
 
 .left-card {
   grid-area: a;
-  background: url("/img/about-section.jpg");
+  background: url("Евклид/img/about-section.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2rem;
@@ -169,7 +169,7 @@ ul {
 }
 
 .how-content__rigth__img {
-  background-image: url('/img/how-img1.jpg');
+  background-image: url('Евклид/img/how-img1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   
