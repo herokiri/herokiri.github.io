@@ -72,6 +72,9 @@
   .logo {
     margin-right: 0;
   }
+  .about-description {
+    max-width: 100%;
+  }
   .about__content {
     grid-template-areas: "a"
   }
